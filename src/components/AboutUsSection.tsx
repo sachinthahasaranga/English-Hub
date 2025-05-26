@@ -1,5 +1,4 @@
 import React from 'react'
-import pasindu from '../assets/MalithMirandaPhotograpy-8976.jpg'
 import msJenny from '../assets/MsJenny.jpg'
 import kishen from '../assets/kishen.jpg'
 import msDinuka from '../assets/MsDinuka.jpg'

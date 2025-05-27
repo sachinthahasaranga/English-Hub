@@ -33,12 +33,12 @@ const HeroSection: React.FC = () => {
             Explore Features
             <FaArrowRight className="ml-2" />
           </a>
-          <button
+          {/* <button
             className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-2 border-blue-600"
           >
             <FaPlay className="mr-2" />
             Watch Demo
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl transform rotate-3 scale-105 opacity-20"></div>
           <img
-            src="https://www.speech.lk/wp-content/uploads/2024/06/Sp-Tx-1.jpg"
+            src="https://cdn.firstcry.com/education/2022/12/11101254/Parts-Of-A-Computer-For-Kids.jpg"
             alt="ArticuLearn illustration"
             className="max-h-[28rem] w-auto rounded-2xl shadow-2xl border-4 border-white transform hover:scale-105 transition-transform duration-300"
           />

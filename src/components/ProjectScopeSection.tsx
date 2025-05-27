@@ -127,14 +127,14 @@ const ProjectScopeSection: React.FC = () => {
               ) : section.id === 'technologies' ? (
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
                   {[
-                    { name: 'React Native', url: 'https://reactnative.dev/img/header_logo.svg' },
+                    { name: 'React', url: 'https://reactnative.dev/img/header_logo.svg' },
                     { name: 'Python', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
                     { name: 'TensorFlow', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg' },
                     { name: 'Flask', url: 'https://icon.icepanel.io/Technology/png-shadow-512/Flask.png' },
                     { name: 'Expo', url: 'https://images.seeklogo.com/logo-png/47/1/expo-logo-png_seeklogo-478757.png' },
-                    { name: 'Firebase', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
+                    { name: 'MongoDB', url: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg' },
                     { name: 'Docker', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
-                    { name: 'Azure', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg' },
+                    { name: 'Vercel', url: 'https://www.svgrepo.com/show/354513/vercel-icon.svg' },
                   ].map((tech) => (
                     <div key={tech.name} className="flex flex-col items-center group">
                       <div className="bg-white p-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1">

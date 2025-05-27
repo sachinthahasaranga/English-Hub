@@ -8,23 +8,26 @@ interface DownloadItem {
   link?: string
 }
 
+// Update these to match your actual PDF files in public/pdfs/
 const documents: DownloadItem[] = [
-  { title: 'Topic Assessment', submittedOn: '2021/02/25', type: 'Group', link: '#' },
-  { title: 'Project Charter', submittedOn: '2021/02/25', type: 'Group', link: '#' },
-  { title: 'Project Proposal', submittedOn: '2021/03/22', type: 'Individual', link: '#' },
-  { title: 'Status Documents I', submittedOn: '2021/07/05', type: 'Individual', link: '#' },
-  { title: 'Status Documents II', submittedOn: 'Yet to be submitted, link will be updated soon.', type: 'Individual' },
-  { title: 'Research Paper', submittedOn: 'Yet to be submitted, link will be updated soon.', type: 'Group' },
-  { title: 'Final Report', submittedOn: '2021/10/13', type: 'Group', link: '#' },
-  { title: 'Final Report', submittedOn: '2021/10/13', type: 'Individual', link: '#' },
-  { title: 'Poster', submittedOn: '2021/10/13', type: 'Group', link: '#' },
+  { title: 'Topic Assessment', submittedOn: '2024/06/24', type: 'Group', link: '/pdfs/TAF_24-25J-103.pdf' },
+  { title: 'Project Proposal ( Niangoda S A N S H )', submittedOn: '2024/08/22', type: 'Individual', link: '/pdfs/IT21194962_Report_Updated.pdf' },
+  { title: 'Project Proposal ( Sirisena B G K D )', submittedOn: '2024/08/22', type: 'Individual', link: '/pdfs/IT21357794-RP.pdf' },
+  { title: 'Project Proposal ( Dewinda A G T )', submittedOn: '2024/08/22', type: 'Individual', link: '/pdfs/IT21196560_RP.pdf' },
+  { title: 'Check List 1', submittedOn: '2024/12/06', type: 'Group', link: '/pdfs/24-25J-103_Git_repository.txt' },
+  { title: 'Research Paper', submittedOn: 'Yet to be submitted, link will be updated soon.', type: 'Group',link: '/pdfs/AI-Driven Approaches to Language Skill Development in Pre-Adolescent Learners.docx' },
+  { title: 'Final Report', submittedOn: '2025/04/11', type: 'Group', link: '/pdfs/24-25J-103_Final_Report.docx' },
+  { title: 'Final Report ( Niyangoda S A N S H )', submittedOn: '2025/040/11', type: 'Individual', link: '/pdfs/IT21194962_Report.pdf' },
+  { title: 'Final Report ( Sirisena B G K D )', submittedOn: '2025/040/11', type: 'Individual', link: '/pdfs/IT21357794 -Adaptive gamification system with Realtime emotional feedback.pdf' },
+  { title: 'Final Report ( Dewinda A G T )', submittedOn: '2025/040/11', type: 'Individual', link: '/pdfs/IT21196560_Final_Report.docx' },
+
 ]
 
 const presentations: DownloadItem[] = [
-  { title: 'Project Proposal', submittedOn: '2021/03/14', type: 'Group', link: '#' },
-  { title: 'Progress Presentation I', submittedOn: '2021/07/08', type: 'Group', link: '#' },
-  { title: 'Progress Presentation II', submittedOn: '2021/10/18', type: 'Group', link: '#' },
-  { title: 'Final Presentation', submittedOn: 'Yet to be submitted, link will be updated soon.', type: 'Group' },
+  { title: 'Project Proposal', submittedOn: '2024/08/17', type: 'Group', link: '/pdfs/Educational tool for age 10-12 children to enhance language skills and comprehension.pptx' },
+  { title: 'Progress Presentation I', submittedOn: '2024/12/07', type: 'Group', link: '/pdfs/24-25J-103-PP1.pdf' },
+  { title: 'Progress Presentation II', submittedOn: '2025/03/19', type: 'Group', link: '/pdfs/24-25J-103-PP2.pdf' },
+  { title: 'Final Presentation', submittedOn: 'Yet to be submitted, link will be updated soon.', type: 'Group', link: '/pdfs/Final Educational tool for age 10-12 children to enhance language skills and comprehension.pdf' },
 ]
 
 const DownloadsSection: React.FC = () => {

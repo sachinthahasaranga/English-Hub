@@ -9,10 +9,10 @@ const Footer: React.FC = () => {
           {/* Project Info */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              ArticuLearn
+              EnglishHub
             </h3>
             <p className="text-gray-400 mb-6 max-w-lg">
-              A personalized AI-powered speech therapy system supporting children with speech sound disorders including phonological errors, stuttering, articulation issues, and CAS.
+              Educational tool for age 10-12 children to enhance language skills and comprehension
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
@@ -60,12 +60,12 @@ const Footer: React.FC = () => {
               <li className="flex items-center text-gray-400">
                 <FaEnvelope className="w-5 h-5 mr-3 text-blue-400" />
                 <a href="mailto:it21222290@my.sliit.lk" className="hover:text-blue-400 transition-colors">
-                  it21222290@my.sliit.lk
+                  IT21194962@my.sliit.lk
                 </a>
               </li>
               <li className="flex items-center text-gray-400">
                 <FaPhone className="w-5 h-5 mr-3 text-blue-400" />
-                <span>+94 11 754 4801</span>
+                <span>+94 712 758 785</span>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              © 2025 ArticuLearn Research Team – All Rights Reserved
+              © 2025 EnglishHub Research Team – All Rights Reserved
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6">

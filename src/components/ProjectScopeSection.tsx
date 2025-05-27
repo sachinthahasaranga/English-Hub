@@ -131,9 +131,7 @@ const ProjectScopeSection: React.FC = () => {
                     { name: 'Python', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
                     { name: 'TensorFlow', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg' },
                     { name: 'Flask', url: 'https://icon.icepanel.io/Technology/png-shadow-512/Flask.png' },
-                    { name: 'Expo', url: 'https://images.seeklogo.com/logo-png/47/1/expo-logo-png_seeklogo-478757.png' },
                     { name: 'MongoDB', url: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg' },
-                    { name: 'Docker', url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
                     { name: 'Vercel', url: 'https://www.svgrepo.com/show/354513/vercel-icon.svg' },
                   ].map((tech) => (
                     <div key={tech.name} className="flex flex-col items-center group">

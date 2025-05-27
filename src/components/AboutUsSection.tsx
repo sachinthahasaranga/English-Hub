@@ -1,8 +1,9 @@
 import React from 'react'
 import msJenny from '../assets/MsJenny.jpg'
-import kishen from '../assets/kishen.jpg'
 import msDinuka from '../assets/MsDinuka.jpg'
 import thisara from '../assets/Thisara.jpg'
+import kavishi from '../assets/kavishi.png'
+import sachintha from '../assets/sachintha.png'
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
 // import shehan from '../assets/MalithMirandaPhotograpy-8976.jpg'
 interface TeamMember {
@@ -50,7 +51,7 @@ const team: TeamMember[] = [
     status: 'Undergraduate',
     university: 'Sri Lanka Institute of Information Technology',
     department: 'Software Engineering',
-    image: kishen,
+    image: kavishi,
     social: {
       linkedin: '#',
       github: '#',
@@ -63,7 +64,7 @@ const team: TeamMember[] = [
     status: 'Undergraduate',
     university: 'Sri Lanka Institute of Information Technology',
     department: 'Software Engineering',
-    image: 'https://randomuser.me/api/portraits/men/14.jpg',
+    image: sachintha,
     social: {
       linkedin: '#',
       github: '#',
